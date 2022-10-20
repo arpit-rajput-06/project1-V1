@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+.Eden{
+  margin-top: 6rem;
+}
+#steps {
+  width: 505px;
+  margin: 50px auto;
+}
+.step {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: inline-block;
+  border: 4px solid;
+  border-color: transparent;
+  border-radius: 50%;
+  color: #cdd0da;
+  font-weight: 600;
+  text-align: center;
+  line-height: 26px;
+}
+.step:first-child {
+  line-height: 31px;
+}
+.step:nth-child(n+2) {
+  margin: 0px 0 0 84px;
+  transform: translate(0, 0px);
+}
+.step:nth-child(n+2):before {
+  width: 85px;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+  transform: translate(-95px, 15px);
+  content: '';
+}
+.step:after {
+  width: 150px;
+  display: block;
+  transform: translate(-55px, 3px);
+  color: #818698;
+  content: attr(data-desc);
+  font-weight: 400;
+  font-size: 13px;
+}
+.step:first-child:after {
+  transform: translate(-55px, -1px);
+}
+.step.active {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+.step.active:before {
+  background: rebeccapurple;
+}
+.first-para{
+  color: #7e7d7d  ;
+}
+.Full-name{
+  margin-right: 27rem;
+  margin-bottom: 4px;
+}
+.text-form{
+  padding: 10px;
+  width: 32rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.Display-name{
+  margin-right: 26rem;
+  margin-bottom: 4px;
+}
+.App .workspace{
+ background-color: rebeccapurple;
+ color: white;
+ width: 32rem;
+ padding: 10px;
+ 
+}
+.App .workspace:hover{
+  border:1px solid rebeccapurple;
+  color:rebeccapurple;
+  background-color: white;
+}
+.app{
+  margin-top: 6rem;
+}
+.workspace-name{
+  margin-right: 24rem;
+  margin-bottom: 4px;
+}
+.url-name{
+  margin-right: 25rem;
+  margin-bottom: 4px
+}
+.submit .typ{
+  border: solid 1px #cecece;
+  float :left;
+  /* color: black; */
+}
+.submit{
+  padding: 10px;
+  color: rgb(155, 155, 155);
+  border-width: 1px;
+
+}
+.typ{
+  padding: 10px;
+  width: 23rem;
+  border: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ricon{
+ color: rebeccapurple;
+}
+.text-12{
+  font-size: 18px;
+  font-weight: bold;
+}
+.box-12{
+  border:1px solid black;
+  text-align: left;
+  padding: 18px;
+    margin-right: 42px;
+    width: 12%;
+    border-radius: 8px;
+}
+.hl:hover{
+  border-color:  rebeccapurple;
+  border-width: 2px;
+  
+}
+button.submit {
+  background-color: lightgrey;
+  border-right: none;
+  padding: 11px;
+  border: 1px solid lightgray;
+  border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+
